@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.body_container{
+    background-color: rgb(32, 54, 75);
+    padding: 3%;
+    position: relative;
+    height: 110vh;
+    overflow: hidden;
+}
+nav span{
+    color: yellow;
+}
+.logo_creative{
+    width: 4%;
+    height: 8vh;
+    display: flex;
+}
+.creative{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+.lists{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.lists li{
+font-size: 120%;
+margin-top: 3%;
+    margin-right: 5%;
+}
+.positions{
+    position: absolute;
+    padding-top: 10%;
+    width: 45%;
+
+}
+.colors_yellow{
+    color:yellow;
+}
+.Subscribe{
+    font-size: 200%;
+}
+.para_lorem{
+    margin-top: 2%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.forms input{
+
+    padding: 2%;   
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+}
+li, a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #e6a700;
+}
+
+.send{
+    width: 20% !important;
+    background-color: yellow;
+    transition: 1s background-color;
+}
+.send:hover{
+    width: 20% !important;
+    background-color: rgb(70, 184, 178);
+}
+.person{
+    position: absolute;
+    left: 110%;
+    width: 100%;
+    top: 10%;
+}
+.chat{
+    width: 10%;
+    height: 10vh;
+    position: absolute;
+    left: 95%;
+    top: 90%;
+}
+.arrow{
+    width: 15%;
+    height: 14vh;
+    position: absolute;
+    left: 199%;
+    top: 100%;
+}
+ .slider{
+    width: 40%;
+    height: 4vh;
+    position: absolute;
+    left: 80%;
+    top: 120%;
+ }
+@media screen and (max-width:1115px) {
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 120vh;
+    }   
+    .slider{
+        width: 40%;
+        height: 3vh;
+        position: absolute;
+        left: 80%;
+        top: 110%;
+     }
+     .person{
+        position: absolute;
+        left: 110%;
+        width: 90%;
+        top: 10%;
+        height: 80vh;
+    }
+    .chat{
+        width: 10%;
+        height: 10vh;
+        position: absolute;
+        left: 95%;
+        top: 90%;
+    }
+    .arrow{
+        width: 15%;
+        height: 14vh;
+        position: absolute;
+        left: 189%;
+        top: 90%;
+    }
+    .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .slider{
+        width: 40%;
+        height: 3vh;
+        position: absolute;
+        left: 29%;
+        top: 230%;
+     }
+     .lists li{
+        font-size: 100%;
+        margin-top: 3%;
+            margin-right: 5%;
+        }
+     .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+     .person{
+        position: absolute;
+        width: 90%;
+        top: 110%;
+        left: 0;
+    }
+    .chat{
+        width: 10%;
+        height: 10vh;
+        position: absolute;
+        left:10%;
+        top: 200%;
+    }
+    .arrow{
+        width: 10%;
+        height: 10vh;
+        position:absolute;
+        left: 80%;
+        top: 205%;
+    }
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 210vh;
+    } 
+ .positions{
+    width: 90%;
+ }  
+ .forms input{
+
+    padding: 2%;   
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+}   
+.send{
+    width: 30% !important;
+    background-color: yellow;
+    transition: 1s background-color;
+    margin-left: 35%;
+}
+.send:hover{
+    width: 20% !important;
+    background-color: rgb(70, 184, 178);
+}
+}
+
+@media screen and (max-width:688px){
+ 
+   .slider{
+        width: 20%;
+        height: 2vh;
+        position: absolute;
+        left: 35%;
+        top: 200%;
+     }
+     .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+     .person{
+        position: absolute;
+        width: 70%;
+        top: 110%;
+        left: 15%;
+        height: 55vh;
+    }
+    .chat{
+        width: 10%;
+        height: 10vh;
+        position: absolute;
+        left:10%;
+        top: 170%;
+    }
+    .arrow{
+        width: 10%;
+        height: 10vh;
+        position:absolute;
+        left: 75%;
+        top: 175%;
+    }
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 170vh;
+    }    
+    /* nav{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }    */
+    .lists{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .lists li{
+    font-size: 90%;
+    margin-top: 3%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:609px) {
+    
+    .slider{
+        width: 20%;
+        height: 2vh;
+        position: absolute;
+        left: 35%;
+        top: 205%;
+     }
+     .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+     .person{
+        position:   absolute;
+        width: 70%;
+        top: 110%;
+        left: 15%;
+        height: 50vh;
+    }
+    .arrow{
+        width: 10%;
+        height: 10vh;
+        position:absolute;
+        left: 75%;
+        top: 180%;
+    }
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 150vh;
+    }    
+    .lists{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .lists li{
+    font-size: 70%;
+    margin-top: 3%;
+     margin-right: 5%;
+    }
+    .Subscribe{
+        font-size: 150%;
+    }
+    .para_lorem{
+        font-size: smaller;
+    }
+    .logo_creative{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:468px) {
+    nav{
+        flex-direction: column;
+    }
+    .search{
+        width: 10%;
+    }
+    .send{
+        width: 40% !important;
+        background-color: yellow;
+        transition: 1s background-color;
+    }
+    .send:hover{
+        width: 40% !important;
+        background-color: rgb(70, 184, 178);
+    }
+    .slider{
+        width: 20%;
+        height: 2vh;
+        position: absolute;
+        left: 35%;
+        top: 195%;
+     }
+     .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+     .person{
+        position:absolute;
+        width: 70%;
+        top: 110%;
+        left: 15%;
+        height: 45vh;
+    }
+    .arrow{
+        width: 10%;
+        height: 10vh;
+        position:absolute;
+        left: 75%;
+        top: 170%;
+    }
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 160vh;
+    }    
+}
+@media screen and (max-width:360px) {
+    nav{
+        flex-direction: column;
+    }
+    .search{
+        width: 10%;
+    }
+    .send{
+        width: 40% !important;
+        background-color: yellow;
+        transition: 1s background-color;
+    }
+    .send:hover{
+        width: 40% !important;
+        background-color: rgb(70, 184, 178);
+    }
+    .slider{
+        width: 20%;
+        height: 2vh;
+        position: absolute;
+        left: 35%;
+        top: 175%;
+     }
+     .logo_creative{
+        width: 10%;
+        height: 8vh;
+        display: flex;
+    }
+     .person{
+        position:absolute;
+        width: 70%;
+        top: 110%;
+        left: 15%;
+        height: 40vh;
+    }
+    .arrow{
+        width: 10%;
+        height: 5vh;
+        position:absolute;
+        left: 75%;
+        top: 155%;
+    }
+     .chat{
+        width: 8%;
+        height: 5vh;
+        position: absolute;
+        left:10%;
+        top: 160%;
+    }
+    .body_container{
+        background-color: rgb(32, 54, 75);
+        padding: 3%;
+        position: relative;
+        height: 150vh;
+    }  
+}
